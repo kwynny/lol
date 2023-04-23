@@ -219,6 +219,5 @@ game:GetService("ReplicatedStorage").Events.GetStats:InvokeServer(ohTable1)
 
         game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("Gui"):WaitForChild("Ui"):WaitForChild("UiModule"):WaitForChild("Modules"):WaitForChild("Settings"):WaitForChild("Set"):InvokeServer(unpack(args))
         game:GetService('TeleportService'):Teleport(game.PlaceId, game.Players.LocalPlayer)
-		wait(2)
     end
 end
